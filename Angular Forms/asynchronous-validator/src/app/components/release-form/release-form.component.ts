@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, OnDestroy } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { takeWhile } from 'rxjs';
 import { IReleaseLog, ReleaseLog } from 'src/app/classes/release-log';
@@ -11,7 +11,7 @@ import { VersionService } from 'src/app/core/services/version.service';
   templateUrl: './release-form.component.html',
   styleUrls: ['./release-form.component.scss']
 })
-export class ReleaseFormComponent implements OnInit {
+export class ReleaseFormComponent implements OnInit, OnDestroy {
   @Output() newReleaseLog = new EventEmitter<IReleaseLog>();
   isComponentAlive = false;
   apps = Object.values(Apps);
