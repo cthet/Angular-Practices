@@ -40,7 +40,7 @@ export class RatingComponent implements OnInit, ControlValueAccessor {
   selectRating(rating: number) {
     if (this.disabled) return;
     this.value = rating;
-    this.onChange(rating);
+    this.onChange(rating); //set the form control value to the value on the selected rating
   }
 
   registerOnChange(fn: any) {
