@@ -27,6 +27,7 @@ describe('VersionControlComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
   it('should set the [logs] @Input for the ReleaseLogsComponent', () => {
     const releaseLogsComponent =
       ngMocks.find<ReleaseLogsComponent>('app-release-logs').componentInstance;
