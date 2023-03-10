@@ -1,0 +1,30 @@
+.home .cards-container {
+  display: flex;
+}
+.home .cards-container .input-stream {
+  margin-right: 10px;
+}
+.home .cards-container .output-stream {
+  margin-left: 10px;
+}
+.home .cards-container .input-stream,
+.home .cards-container .output-stream {
+  flex: 1;
+  padding: 1.8rem;
+  background-color: #333;
+  min-height: 200px;
+  min-width: 200px;
+  border-radius: 14px;
+}
+.home .cards-container .input-stream__item,
+.home .cards-container .output-stream__item {
+  color: lightgreen;
+}
+.home .buttons-container {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.home .buttons-container button:nth-child(1) {
+  margin-right: 16px;
+}/*# sourceMappingURL=home.component.css.map */

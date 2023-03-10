@@ -1,0 +1,14 @@
+.content__container {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content__container__form,
+.content__container app-multiplication-table {
+  width: 100%;
+  display: block;
+  text-align: center;
+}/*# sourceMappingURL=app.component.css.map */

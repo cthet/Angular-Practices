@@ -1,0 +1,32 @@
+.cards-container {
+  display: flex;
+  width: 100%;
+}
+.cards-container .input-stream {
+  margin-right: 10px;
+}
+.cards-container .output-stream {
+  margin-left: 10px;
+}
+.cards-container .input-stream,
+.cards-container .output-stream {
+  flex: 1;
+  padding: 1.8rem;
+  background-color: #333;
+  min-height: 200px;
+  min-width: 200px;
+  border-radius: 14px;
+}
+.cards-container .input-stream__item, .cards-container .input-stream h6,
+.cards-container .output-stream__item,
+.cards-container .output-stream h6 {
+  color: lightgreen;
+}
+
+.buttons-container {
+  margin-bottom: 30px;
+  display: flex;
+}
+.buttons-container button:nth-child(1) {
+  margin-right: 16px;
+}/*# sourceMappingURL=app.component.css.map */

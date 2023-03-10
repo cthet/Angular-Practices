@@ -1,0 +1,18 @@
+.write-box-container {
+  display: flex;
+  flex-direction: row;
+}
+.write-box-container .write-box {
+  flex: 1;
+}
+.write-box-container .write-box textarea {
+  width: 100%;
+  min-height: 100%;
+  resize: none;
+}
+.write-box-container textarea {
+  padding: 10px;
+}
+.write-box-container .send-button .btn {
+  height: 100%;
+}/*# sourceMappingURL=write-message.component.css.map */

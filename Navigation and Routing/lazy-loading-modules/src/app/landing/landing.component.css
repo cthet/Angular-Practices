@@ -1,0 +1,34 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.landing__header {
+  height: 60px;
+  padding: 0 20px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.landing__header__main {
+  flex: 1;
+}
+.landing__header__links {
+  display: flex;
+}
+.landing__header__links__link {
+  margin-left: 16px;
+}
+.landing__header__links__link:hover {
+  color: #ececec;
+  cursor: pointer;
+}
+.landing__body {
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  background-color: #ececec;
+}/*# sourceMappingURL=landing.component.css.map */

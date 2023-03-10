@@ -1,0 +1,30 @@
+.fruits {
+  width: 300px;
+}
+.fruits__item {
+  padding: 4px 8px;
+  border: 1px solid rgba(238, 238, 238, 0.9333333333);
+  display: flex;
+  align-items: center;
+}
+.fruits__item__title {
+  flex: 1;
+  margin-right: 16px;
+}
+.fruits__item .material-icons {
+  color: red;
+  cursor: pointer;
+}
+.fruits__item .material-icons:hover {
+  color: #333;
+}
+.fruits__item--limited {
+  background-color: #333;
+  color: white;
+}
+
+.add-section {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=app.component.css.map */

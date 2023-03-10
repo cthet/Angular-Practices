@@ -1,0 +1,13 @@
+.notif-manager__count {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.notif-manager__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notif-manager__actions__button {
+  margin-right: 10px;
+  padding: 10px 20px;
+}/*# sourceMappingURL=notifications-manager.component.css.map */

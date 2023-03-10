@@ -1,0 +1,9 @@
+.gallery-actions {
+  margin-bottom: 20px;
+}
+.gallery-actions .btn:nth-child(1) {
+  margin-right: 8px;
+}
+.gallery-actions .btn:nth-child(2) {
+  margin-left: 8px;
+}/*# sourceMappingURL=app.component.css.map */

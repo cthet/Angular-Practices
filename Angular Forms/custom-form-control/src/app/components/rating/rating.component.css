@@ -1,0 +1,18 @@
+.rating {
+  display: flex;
+  margin-bottom: 10px;
+}
+.rating__star {
+  cursor: pointer;
+  color: grey;
+  padding: 0 6px;
+}
+.rating__star:first-child {
+  padding-left: 0;
+}
+.rating__star:last-child {
+  padding-right: 0;
+}
+.rating__star--active {
+  color: orange;
+}/*# sourceMappingURL=rating.component.css.map */

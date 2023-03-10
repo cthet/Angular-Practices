@@ -1,0 +1,16 @@
+.multiplication-table {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+}
+.multiplication-table__info {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.multiplication-table__elements {
+  text-align: right;
+  overflow-y: scroll;
+}/*# sourceMappingURL=multiplication-table.component.css.map */

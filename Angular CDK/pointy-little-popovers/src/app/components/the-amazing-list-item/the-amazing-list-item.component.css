@@ -1,0 +1,25 @@
+.list__item {
+  transition: all ease 0.4s;
+  cursor: pointer;
+}
+.list__item:hover, .list__item:focus {
+  background-color: #ececec;
+  transform: scale(1.02);
+}
+.list__item__primary, .list__item__secondary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list__item__primary__info, .list__item__secondary__info {
+  font-size: small;
+}
+.list__item__primary__info:nth-child(1) {
+  font-weight: bold;
+  font-size: larger;
+}
+.list__item img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}/*# sourceMappingURL=the-amazing-list-item.component.css.map */

@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.home {
+  text-align: center;
+}
+.home .secondary-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.home .secondary-container .users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+.home .secondary-container .users app-user-card {
+  margin: 0 20px 20px 0;
+}/*# sourceMappingURL=users.component.css.map */

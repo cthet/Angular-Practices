@@ -1,0 +1,26 @@
+.type-picker {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.type-picker__options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.type-picker__options__option:nth-child(1) {
+  margin-right: 8px;
+}
+.type-picker__options__option:nth-child(2) {
+  margin-left: 8px;
+}
+.type-picker__options__option__btn {
+  display: flex;
+  align-items: center;
+  min-width: 40px;
+  text-align: left;
+  justify-content: center;
+}
+.type-picker__options__option__btn--active [class^=icon-],
+.type-picker__options__option__btn--active [class*=" icon-"] {
+  margin-right: 10px;
+}/*# sourceMappingURL=app.component.css.map */

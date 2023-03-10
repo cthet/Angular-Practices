@@ -1,0 +1,28 @@
+.counter {
+  margin-top: 20px;
+  padding: 40px;
+  width: 500px;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter__heading, .counter__sub-heading {
+  text-align: center;
+}
+.counter__value {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.counter__actions {
+  display: none;
+  align-items: center;
+}
+.counter:hover {
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.counter:hover .counter__actions {
+  display: flex;
+}/*# sourceMappingURL=counter.component.css.map */

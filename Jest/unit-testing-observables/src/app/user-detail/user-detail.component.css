@@ -1,0 +1,36 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.user-detail .user-card {
+  height: 444px;
+}
+.user-detail .main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-detail .secondary-container {
+  display: grid;
+  margin-top: 30px;
+  height: 480px;
+}
+.user-detail .secondary-container .similar-users {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  height: 100%;
+}
+.user-detail .secondary-container .similar-users .user-card {
+  height: 100%;
+  margin-right: 30px;
+  min-width: 240px;
+  width: 240px;
+}
+.user-detail .secondary-container .similar-users .user-card .card {
+  height: 100%;
+}
+.user-detail .secondary-container .similar-users .user-card:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=user-detail.component.css.map */

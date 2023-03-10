@@ -1,0 +1,7 @@
+.header-links {
+  padding: 0 16px;
+  display: flex;
+}
+.header-links__link:nth-child(1) {
+  margin-right: 16px;
+}/*# sourceMappingURL=app.component.css.map */

@@ -1,0 +1,37 @@
+.heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.list {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 500px;
+  overflow: scroll;
+  min-width: 400px;
+  max-width: 960px;
+  width: 100%;
+}
+.list__item {
+  transition: all ease 1s;
+  cursor: pointer;
+}
+.list__item:hover {
+  background-color: #ececec;
+}
+.list__item__primary, .list__item__secondary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list__item__primary__info, .list__item__secondary__info {
+  font-size: small;
+}
+.list__item__primary__info:nth-child(1) {
+  font-weight: bold;
+  font-size: larger;
+}
+.list__item img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}/*# sourceMappingURL=the-amazing-list.component.css.map */

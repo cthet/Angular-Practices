@@ -1,0 +1,13 @@
+.type-picker {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.type-picker__options {
+  display: flex;
+}
+.type-picker__options__option:nth-child(1) {
+  margin-right: 8px;
+}
+.type-picker__options__option:nth-child(2) {
+  margin-left: 8px;
+}/*# sourceMappingURL=app.component.css.map */

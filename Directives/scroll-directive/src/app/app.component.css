@@ -1,0 +1,51 @@
+.page-section {
+  min-height: 250px;
+  text-align: center;
+  background-color: #eee;
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.page-section:nth-of-type(even) {
+  background-color: #333;
+  color: white;
+}
+.page-section:nth-of-type(even) .card {
+  color: #333;
+}
+
+.page-links {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  cursor: pointer;
+  align-self: flex-end;
+}
+.page-links__link {
+  margin-right: 16px;
+}
+.page-links__heading {
+  flex: 1;
+}
+
+.to-top-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: rgb(196, 3, 47);
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+.to-top-button:hover {
+  background-color: black;
+  color: white;
+}
+.to-top-button .material-icons {
+  font-size: 30px;
+  color: white !important;
+}/*# sourceMappingURL=app.component.css.map */

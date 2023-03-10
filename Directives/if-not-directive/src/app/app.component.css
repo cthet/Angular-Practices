@@ -1,0 +1,13 @@
+.content__toggle-actions {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content__toggle-actions__heading {
+  margin-bottom: 10px;
+}
+.content__toggle-actions__action {
+  margin-right: 16px;
+}
+.content__toggle-actions__action:last-of-type {
+  margin-right: 0;
+}/*# sourceMappingURL=app.component.css.map */

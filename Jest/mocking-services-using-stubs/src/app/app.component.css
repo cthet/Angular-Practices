@@ -1,0 +1,28 @@
+.content__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.content__container__copy-from, .content__container__copy-to {
+  flex: 1;
+  margin: 0 10px;
+  border: 1px #ececec solid;
+  border-radius: 4px;
+  min-height: 400px;
+  padding: 16px;
+}
+.content__container__copy-from h3, .content__container__copy-to h3 {
+  margin-bottom: 30px;
+}
+.content__container__copy-from__input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.content__container__copy-from__input-group button {
+  margin: 10px 0;
+}
+.content__container__copy-from__input-group img {
+  width: 100%;
+  height: 200px;
+}/*# sourceMappingURL=app.component.css.map */
