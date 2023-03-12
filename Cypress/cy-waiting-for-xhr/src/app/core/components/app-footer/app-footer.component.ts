@@ -8,11 +8,9 @@ import { UserService } from '../../services/user.service';
   styleUrls: ['./app-footer.component.scss']
 })
 export class AppFooterComponent implements OnInit {
-  dataComments$!: Observable<string>;
-  constructor(private userService: UserService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.dataComments$ = this.userService.getDataComments();
   }
 
 }

@@ -8,11 +8,11 @@ import {
 } from '@angular/core/testing';
 import { ActivatedRoute } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
-import { ActivatedRouteMock } from 'src/__mocks__/activated-route.mock';
+import { ActivatedRouteMock } from '../../__mocks__/activated-route.mock';
 import {
   DUMMY_USERS,
   UserServiceMock,
-} from 'src/__mocks__/services/user.service.mock';
+} from '../../__mocks__/services/user.service.mock';
 import { LoaderComponent } from '../core/components/loader/loader.component';
 import { UserCardComponent } from '../core/components/user-card/user-card.component';
 import { UserService } from '../core/services/user.service';
@@ -22,7 +22,7 @@ import { UserDetailComponent } from './user-detail.component';
 describe('UserDetailComponent', () => {
   let component: UserDetailComponent;
   let fixture: ComponentFixture<UserDetailComponent>;
-  let activatedRoute;
+  let activatedRoute: any;
   beforeEach(
     waitForAsync(() => {
       TestBed.configureTestingModule({

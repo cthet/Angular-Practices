@@ -42,7 +42,7 @@ export const DUMMY_USERS: IUser[] = [
 ];
 
 export class UserServiceMock {
-  searchUsers(username): Observable<IUser[]> {
+  searchUsers(username: string): Observable<IUser[]> {
     return this.getSimilarUsers(null).pipe(
       map((users) => {
         if (!username) {
@@ -60,7 +60,7 @@ export class UserServiceMock {
     );
   }
 
-  getUser(userId): Observable<IUser> {
+  getUser(userId: string): Observable<IUser | undefined> {
     return this.getSimilarUsers().pipe(
       map((users) =>
         users.find((user) => {

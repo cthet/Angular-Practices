@@ -9,7 +9,6 @@ import { Observable, of, throwError } from 'rxjs';
 })
 export class UserService {
   usersApiUrl = 'https://api.randomuser.me?results=10&seed=packt';
-  commentsJsonUrl = 'assets/data/comments.json';
   constructor(private http: HttpClient) {}
 
   getUser(userId: string | null): Observable<IUser> {
@@ -51,9 +50,5 @@ export class UserService {
     );
   }
 
-  getDataComments(): Observable<string> {
-    return this.http
-      .get<{ __comments: string }>(this.commentsJsonUrl)
-      .pipe(map((resp) => resp.__comments));
-  }
+
 }

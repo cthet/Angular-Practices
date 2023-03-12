@@ -19,6 +19,7 @@ export class ActivatedRouteMock {
 
   /** Set the paramMap observables's next value */
   setParamMap(params?: Params) {
+    if(params)
     this.subject.next(convertToParamMap(params));
   }
 }
