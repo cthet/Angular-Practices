@@ -4,10 +4,12 @@ import { map, switchMap } from 'rxjs/operators';
 import { IUser } from '../interfaces/user.interface';
 import { Observable, of, throwError } from 'rxjs';
 
+
 @Injectable({
   providedIn: 'root',
 })
 export class UserService {
+  
   usersApiUrl = 'https://api.randomuser.me?results=10&seed=packt';
   commentsJsonUrl = 'assets/data/comments.json';
   constructor(private http: HttpClient) {}

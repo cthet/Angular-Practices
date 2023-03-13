@@ -22,7 +22,7 @@ const API_USERS = [
       sha256:
         '4b046e871ca3c355b672dbd5e64a958d331d88e1833b26ed065a80be4d8aaf61',
     },
-    dob: { date: '1975-03-06T10:54:34.673Z', age: 46 },
+    dob: { date: '1976-09-04T10:54:34.673Z', age: 46 },
     registered: { date: '2017-05-11T14:25:59.619Z', age: 4 },
     phone: '(04) 4008-4776',
     cell: '(56) 9168-6321',

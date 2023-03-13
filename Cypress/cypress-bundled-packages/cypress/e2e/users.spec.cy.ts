@@ -49,7 +49,7 @@ context('Users', () => {
   });
 
   // it('should show the formatted date of birth on the user card', () => {
-  //   const {moment } = dayjs;
+  //   const {moment } = dayjs; //cypress deprecated Cypress.moment(). use of dayjs 
   //   const { _ } = Cypress;
   //   const apiUserDate = _.get(API_USERS[0], 'dob.date');
   //   const apiUserDateFormatted = dayjs(apiUserDate).format(
@@ -62,6 +62,16 @@ context('Users', () => {
   //       expect(el.text().trim()).to.equal(apiUserDateFormatted);
   //     });
   // });
+
+  it('should go to the user details page with the user uuid', () => {
+    const { minimatch } = Cypress;
+    cy.get('app-user-card').eq(0).click();
+    const expectedURL = `http://localhost:4200/users/${API_USERS[0].login.uuid}`;
+    cy.url().should((url) => {
+      const urlMatches = minimatch(url, `${expectedURL}*`);
+      expect(urlMatches).to.equal(true);
+    });
+  });
 
 
 })

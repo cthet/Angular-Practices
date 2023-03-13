@@ -15,4 +15,8 @@ export interface IUser {
     medium: string;
     thumbnail: string;
   };
+  dob : {
+    date: string;
+    age: number;
+  }
 }

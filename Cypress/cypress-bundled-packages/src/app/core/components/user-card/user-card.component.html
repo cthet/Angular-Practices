@@ -4,9 +4,9 @@
     <div class="card-body">
       <h5 class="card-title">{{ user.name.first }} {{ user.name.last }}</h5>
       <p class="card-text" id="userCardEmail">{{ user.email }}</p>
-      <!-- <p class="card-text" id="userCardDOB">
+      <p class="card-text" id="userCardDOB">
         {{ user.dob.date | date: 'fullDate' }}
-      </p> -->
+      </p> 
       <a href="tel: {{ user.phone }}" class="btn btn-primary">{{
         user.phone
       }}</a>
