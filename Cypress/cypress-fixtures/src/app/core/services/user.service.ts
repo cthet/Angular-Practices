@@ -4,12 +4,10 @@ import { map, switchMap } from 'rxjs/operators';
 import { IUser } from '../interfaces/user.interface';
 import { Observable, of, throwError } from 'rxjs';
 
-
 @Injectable({
   providedIn: 'root',
 })
 export class UserService {
-  
   usersApiUrl = 'https://api.randomuser.me?results=10&seed=packt';
   constructor(private http: HttpClient) {}
 
@@ -25,7 +23,6 @@ export class UserService {
         })
     );
   }
-
   getSimilarUsers(userId: string | null): Observable<IUser[]> {
     return this.http
       .get<{ results: IUser[] }>(this.usersApiUrl)
@@ -52,9 +49,4 @@ export class UserService {
     );
   }
 
-  getDataComments(): Observable<string> {
-    return this.http
-      .get<{ __comments: string }>(this.commentsJsonUrl)
-      .pipe(map((resp) => resp.__comments));
-  }
 }
