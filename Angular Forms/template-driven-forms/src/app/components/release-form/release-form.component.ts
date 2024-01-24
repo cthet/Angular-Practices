@@ -9,7 +9,7 @@ import { Apps } from 'src/app/constants/apps';
   styleUrls: ['./release-form.component.scss']
 })
 export class ReleaseFormComponent implements OnInit {
-@Output() newReleaseLog = new EventEmitter<ReleaseLog>();
+  @Output() newReleaseLog = new EventEmitter<ReleaseLog>();
   apps = Object.values(Apps);
   newLog: IReleaseLog = {
     app: Apps.CALENDAR,
